@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EXAMEN1RAD.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="EXAMEN NÚMERO 1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="NOMBRES" FontSize="Title" Padding="30,10,30,10"/>
+        <Entry x:Name="NOMBRE" Placeholder="" Keyboard="Text" TextColor="Black"/>
+        <Label Text="APELLIDOS" FontSize="Title" Padding="30,10,30,10"/>
+        <Entry x:Name="APELLIDOS" Placeholder="" Keyboard="Text" TextColor="Black"/>
+        <Label Text="NUMERO" FontSize="Title" Padding="30,10,30,10"/>
+        <Entry x:Name="NUMERO" Placeholder="" Keyboard="Text" TextColor="Black"/>
+        <Label Text="EDAD" FontSize="Title" Padding="30,10,30,10"/>
+        <Entry x:Name="EDAD" Placeholder="" Keyboard="Text" TextColor="Black"/>
+        <Label Text="PAIS" FontSize="Title" Padding="30,10,30,10"/>
+        
+        <Picker x:Name="picker" Title="Seleccione un pais" TextColor="Black" FontSize="Large" />
+
+
+    </StackLayout>
+
+</ContentPage>
